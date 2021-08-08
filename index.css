@@ -16,13 +16,16 @@ h1{
 nav-bar{
     display: inline-block;
 }
-img{
-float: left;
-}
 h2{
     text-transform: capitalize;
     letter-spacing: 2px;
     font-size: 5vh;
     color: plum;
     text-align: center;
+}
+p{
+    font-size: 3vh;
+}
+li{
+    font-size: 3vh;
 }
