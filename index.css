@@ -9,6 +9,18 @@
   background-color: aquamarine;
   font-size: xx-large;
 }
+.nav-bar ul a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: violet;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-bar ul a:hover::after{
+    width: 60px;
+}
 h1{
     font-size: 100px;
     float: left;
@@ -42,4 +54,7 @@ h4{
 #cheese-cake{
     font-size: 3vh;
     text-align: center;
+}
+input{
+    font-size: 3vh;
 }
