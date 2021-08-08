@@ -37,4 +37,9 @@ h4{
 }
 .serve{
     font-size: 3vh;
+    text-decoration: none;
+}
+#cheese-cake{
+    font-size: 3vh;
+    text-align: center;
 }
